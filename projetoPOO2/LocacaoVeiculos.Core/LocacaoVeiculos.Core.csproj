@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Camadas Model + Controller. Não depende de EF nem de WinForms (DIP). -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>LocacaoVeiculos.Core</RootNamespace>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,5 @@
+﻿<Solution>
+  <Project Path="LocacaoVeiculos.App/LocacaoVeiculos.App.csproj" />
+  <Project Path="LocacaoVeiculos.Core/LocacaoVeiculos.Core.csproj" />
+  <Project Path="LocacaoVeiculos.Data/LocacaoVeiculos.Data.csproj" />
+</Solution>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Camada View: telas WinForms. Só conversa com os Controllers do Core. -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <!-- Permite compilar no Mac/Linux. Para EXECUTAR, precisa de Windows. -->
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>LocacaoVeiculos.App</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LocacaoVeiculos.Core\LocacaoVeiculos.Core.csproj" />
+    <ProjectReference Include="..\LocacaoVeiculos.Data\LocacaoVeiculos.Data.csproj" />
+  </ItemGroup>
+
+</Project>
